@@ -6,7 +6,7 @@ importe = 0
 for i in range(nEmpleados):
   sueldo = float(input(f"Ingrese el sueldo del empleado {i+1}: "))
   importe += sueldo
-  if sueldo > 300000 and sueldo < 10000000:
+  if sueldo > 1300000 and sueldo < 3000000:
     contadorInferior += 1
   elif sueldo > 3000000 and sueldo < 10000000:
     contadorSuperior += 1
