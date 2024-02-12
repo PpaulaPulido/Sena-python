@@ -3,7 +3,9 @@ kilometros = []
 total_kms = []
 sumatotal = 0
 
-for i in range(3):
+conductores = int(input("Ingresa la cantidad de conductores: "))
+
+for i in range(conductores):
     nombre = input(f"\nIngresa el nombre del conductor {i+1}: ")
     nombreConductores.append(nombre)
     
