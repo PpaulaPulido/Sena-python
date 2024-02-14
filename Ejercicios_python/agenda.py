@@ -1,3 +1,4 @@
+#definir funciones
 def registrar():
     agenda = {}
     respuesta = "s"
